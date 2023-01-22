@@ -333,7 +333,7 @@
         </div>
       </section>
       <section class="customers-content">
-        <div class="conteiner">
+        <div class="container">
           <h2 class="title-h2">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-list-item">
@@ -427,6 +427,24 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <p class="footer-form-name">Subscribe</p>
+          <div class="fofoter-input-flex">
+            <input
+              type="email"
+              name="email"
+              class="footer-input-email"
+              id="fofoter-input-icon"
+              placeholder="E-mail"
+            />
+            <button class="footer-button-subscribe btn" type="submit">
+              Subscribe
+              <svg class="footer-icon-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -437,9 +455,9 @@
           </svg>
         </button>
         <form class="modal-form">
-          <h1 class="modal-title">
+          <p class="modal-title">
             Leave your contacts and we will call you back
-          </h1>
+          </p>
 
           <label for="input-name"><span class="input-name">Name</span> </label>
           <div class="modal-field">
@@ -449,10 +467,10 @@
               type="text"
               class="modal-input"
             />
-            <span class="icon-input-blok">
-              <svg class="icon-input" width="18px" height="24px">
-                <use href="./images/icons.svg#icon-person"></use>
-            </svg></span>
+
+            <svg class="icon-input" width="18px" height="24px">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
           </div>
 
           <label for="input-phone">
@@ -465,9 +483,10 @@
               type="number"
               class="modal-input"
             />
-            <span class="icon-input-blok">
-              <svg class="icon-input" width="18px" height="24px">
-                <use href="./images/icons.svg#icon-phone"></use></svg></span>
+
+            <svg class="icon-input" width="18px" height="24px">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
           </div>
 
           <label for="input-email">
@@ -480,23 +499,23 @@
               type="email"
               class="modal-input"
             />
-            <span class="icon-input-blok">
-              <svg class="icon-input" width="18px" height="24px">
-                <use href="./images/icons.svg#icon-email"></use></svg></span>
+
+            <svg class="icon-input" width="18px" height="24px">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
           </div>
 
           <label for="input-comment">
             <span class="input-name">Comment</span>
           </label>
           <div class="modal-field">
-            <textarea 
+            <textarea
               id="input-comment"
               name="user-comment"
               type="text"
               class="input-comment"
-              placeholder="Text-input">
-           
-            </textarea>
+              placeholder="Text-input"
+            ></textarea>
           </div>
 
           <div class="modal-field-privacy">
