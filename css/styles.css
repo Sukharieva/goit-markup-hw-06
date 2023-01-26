@@ -693,6 +693,7 @@ transition-property: transform;
     transition: transform 300ms linear;
     border: none;
     padding: 24px;
+    padding-top: 74px;
 }
 
 .is-hidden {
@@ -734,7 +735,6 @@ transform: translate(-50%, -50%) scaleX(0);
 
 .modal-form {
 width: 360px;
-margin-top: 50px;
 display: flex;
 flex-direction: column;
 }
@@ -747,25 +747,39 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
-margin-bottom: 16px;
+margin-bottom: 14px;
 padding: 0;
 }
-
-
-
-.input-name {
-    display: inline-block;
+.modal-label {
+    margin-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.33px;
+    line-height: 1.33;
     letter-spacing: 0.04em;
     color: #8E8F99;
-    margin-bottom: 4px;
 }
+
+
+/*.input-name {
+    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    
+}
+*/
 .modal-field {
     position: relative;
     margin-bottom: 8px;
-    display: block;
+   
+}
+
+.modal-field-comment {
+    position: relative;
+    margin-bottom: 16px;
+    
 }
 
 .modal-input {
@@ -812,7 +826,7 @@ padding: 0;
     transition-property: border;
 }
 .input-comment::placeholder {
-    color: #8E8F99;
+    color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-input:focus +.icon-input,
@@ -829,7 +843,7 @@ color: currentColor;
 }
 
 .modal-field-privacy {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     display: block;
 }
 
